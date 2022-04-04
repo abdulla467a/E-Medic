@@ -1,0 +1,405 @@
+[31-Mar-2021 12:49:48 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 134217736 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleSet.php on line 84
+[01-Jul-2021 21:48:22 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 135168 bytes) in /home/khajabab/public_html/app/Utility/CategoryUtility.php on line 40
+[01-Jul-2021 21:48:30 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 135168 bytes) in /home/khajabab/public_html/app/Utility/CategoryUtility.php on line 40
+[01-Jul-2021 21:48:48 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 135168 bytes) in /home/khajabab/public_html/app/Utility/CategoryUtility.php on line 40
+[01-Jul-2021 21:49:53 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 135168 bytes) in /home/khajabab/public_html/app/Utility/CategoryUtility.php on line 40
+[06-Jul-2021 19:23:34 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/khajabab/public_html/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 138
+[07-Jul-2021 16:44:46 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 1623195648) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 16:44:53 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 811597824) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 17:15:41 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 1631584256) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 17:21:05 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 1625292800) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 17:21:12 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 811597824) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 21:12:53 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 1625292800) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 21:13:00 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 811597824) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 21:54:23 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 1623195648) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 21:54:30 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 813694976) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 22:17:37 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 1633681408) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 22:32:40 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 1625292800) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[07-Jul-2021 22:32:48 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 815792128) (tried to allocate 528384 bytes) in /home/banglab3/public_html/app/Utility/CategoryUtility.php on line 40
+[06-Sep-2021 01:34:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[08-Sep-2021 19:26:43 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[08-Sep-2021 19:26:47 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[09-Sep-2021 04:05:35 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[11-Sep-2021 19:28:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[11-Sep-2021 21:07:02 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[11-Sep-2021 21:07:08 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[11-Sep-2021 21:07:30 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[11-Sep-2021 21:08:12 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: I in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[21-Sep-2021 14:47:20 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal functio in /home/banglab3/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[28-Oct-2021 13:39:28 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'banglab3_bbazar'@'localhost' (using password: YES) in /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#1 /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'banglab3_bbazar', 'bbazar@2021', Array)
+#2 /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\My in /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Nov-2021 17:40:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'trusttou_ecomme...', 'trusttou_ecomme...', Array)
+#1 /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'trusttou_ecomme...', 'trusttou_ecomme...', Array)
+#2 /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illum in /home/trusttou/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:42:42 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'preemin1_siyamvai'@'localhost' (using password: YES) in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', 'trusttou_018748...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', 'trusttou_018748...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\ in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:42:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'preemin1_siyamvai'@'localhost' (using password: YES) in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', 'trusttou_018748...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', 'trusttou_018748...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\ in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:41 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:42 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:42 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:43 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:43 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:44 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:44 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:43:45 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:45:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyamvai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyamv...', '01874800912@@Aa...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182):  in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:48:01 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyam_vai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:48:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyam_vai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:48:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyam_vai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:48:04 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyam_vai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 00:48:49 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'preemin1_siyam_vai'@'localhost' to database 'preemin1_siyam_vai' in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 01:04:25 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#1 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'preemin1_siyam_...', 'preemin1_siyam_...', Array)
+#2 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+ in /home/preemin1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[14-Jan-2022 01:24:58 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) in /home/preemin1/public_html/app/Utility/CategoryUtility.php on line 40
+[14-Jan-2022 01:25:18 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) in /home/preemin1/public_html/app/Utility/CategoryUtility.php on line 40
+[14-Jan-2022 01:27:43 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) in /home/preemin1/public_html/app/Utility/CategoryUtility.php on line 40
+[14-Jan-2022 03:28:26 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) in /home/preemin1/public_html/app/Utility/CategoryUtility.php on line 40
+[14-Jan-2022 03:50:25 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) in /home/preemin1/public_html/app/Utility/CategoryUtility.php on line 40
+[14-Jan-2022 22:50:14 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) in /home/preemin1/public_html/app/Utility/CategoryUtility.php on line 40
+[18-Jan-2022 00:50:01 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'emedicsh_siyam_vai'@'localhost' to database 'emedicsh_siyam_vai' in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 00:50:05 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'emedicsh_siyam_vai'@'localhost' to database 'emedicsh_siyam_vai' in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 00:50:37 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'emedicsh_siyam_vai'@'localhost' to database 'emedicsh_siyam_vai' in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 00:51:34 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'emedicsh_siyam_vai'@'localhost' to database 'emedicsh_siyam_vai' in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:40:23 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'emedicsh_siyam_vai'@'localhost' (using password: YES) in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:40:27 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'emedicsh_siyam_vai'@'localhost' (using password: YES) in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:42:10 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'emedicsh_siyam_vai'@'localhost' (using password: YES) in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:43:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'emedicsh_siyam_vai'@'localhost' (using password: YES) in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:43:51 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'emedicsh_siyam_vai'@'localhost' (using password: YES) in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:45:19 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'emedicsh_siyam_vai'@'localhost' (using password: YES) in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:47:50 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'emedicsh_siyam_vai'@'localhost' (using password: YES) in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'emedicsh_siyam_...', 'emedicsh_siyam_...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:51:00 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'emedicsh_siyam_vai.translations' doesn't exist in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('select * from `...')
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(338): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Qu in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 01:51:44 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'emedicsh_siyam_vai.translations' doesn't exist in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('select * from `...')
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(338): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Qu in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[18-Jan-2022 18:29:36 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) in /home/emedicsh/public_html/app/Utility/CategoryUtility.php on line 40
+[18-Jan-2022 19:34:21 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) in /home/emedicsh/public_html/app/Utility/CategoryUtility.php on line 40
+[26-Jan-2022 03:10:32 Asia/Dhaka] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/emedicsh/public_html/storage/framework/views/262c5fc475dee3fa90fdc0d160e244993abee908.php:172
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/emedicsh/...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/emedicsh/...', Array)
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#4 /home/emedicsh/public_html/storage/framework/views/7cb72cae2959686b7a83a75bba2aa3934e3f47a5.php(285): Illuminate\View\View->render()
+#5 /home/emedicsh/public_html/vendor/lara in /home/emedicsh/public_html/storage/framework/views/262c5fc475dee3fa90fdc0d160e244993abee908.php on line 172
+[26-Jan-2022 07:44:59 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 07:45:02 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 07:45:04 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 07:45:06 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 07:45:11 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 09:23:03 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 09:23:05 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 09:23:15 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 09:23:19 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Jan-2022 09:23:21 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(425): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(402): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(313): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpEx in /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[01-Feb-2022 01:38:38 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'value' of non-object in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php:81
+Stack trace:
+#0 /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php(81): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/emedicsh/...', 81, Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/emedicsh/...')
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/emedicsh/...', Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/emedicsh/...', Array)
+#4 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home/e in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php on line 81
+[01-Feb-2022 01:38:45 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'value' of non-object in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php:81
+Stack trace:
+#0 /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php(81): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/emedicsh/...', 81, Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/emedicsh/...')
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/emedicsh/...', Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/emedicsh/...', Array)
+#4 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home/e in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php on line 81
+[01-Feb-2022 01:38:48 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'value' of non-object in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php:81
+Stack trace:
+#0 /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php(81): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/emedicsh/...', 81, Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/emedicsh/...')
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/emedicsh/...', Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/emedicsh/...', Array)
+#4 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home/e in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php on line 81
+[01-Feb-2022 01:38:50 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'value' of non-object in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php:81
+Stack trace:
+#0 /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php(81): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/emedicsh/...', 81, Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/emedicsh/...')
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/emedicsh/...', Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/emedicsh/...', Array)
+#4 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home/e in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php on line 81
+[01-Feb-2022 01:38:51 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'value' of non-object in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php:81
+Stack trace:
+#0 /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php(81): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/emedicsh/...', 81, Array)
+#1 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/emedicsh/...')
+#2 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/emedicsh/...', Array)
+#3 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/emedicsh/...', Array)
+#4 /home/emedicsh/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home/e in /home/emedicsh/public_html/storage/framework/views/2c6afec2bd817d6d67138ae8f5a3798e7ad46310.php on line 81
