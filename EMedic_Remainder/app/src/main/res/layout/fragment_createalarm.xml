@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a676"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fragment_createalarm_scheduleAlarmHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Please set your Medicine"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <LinearLayout
+            android:id="@+id/fragment_createalarm_timePickerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_createalarm_scheduleAlarmHeading"
+            tools:layout_editor_absoluteX="0dp">
+
+            <!--Textview on Comment, Reminder time text off now -->
+            <!--<TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:text="Reminder Time"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" /> -->
+
+            <TimePicker
+                android:id="@+id/fragment_createalarm_timePicker"
+                android:layout_width="270dp"
+                android:layout_height="370dp"
+                android:layout_marginLeft="80dp" />
+            <!-- Square ways clock
+            android:layout_weight="0.6"
+            android:timePickerMode="spinner" -->
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/fragment_createalarm_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:hint="Enter Your Medicine Name"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_createalarm_timePickerLayout" />
+
+        <CheckBox
+            android:id="@+id/fragment_createalarm_recurring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:checked="false"
+            android:text="Repeat Reminder Days"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_createalarm_title" />
+
+        <LinearLayout
+            android:id="@+id/fragment_createalarm_recurring_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_createalarm_recurring">
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkSat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sat" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkSun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sun" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkMon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mon" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkTue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tue" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkWed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wed" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thu" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkFri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fri" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/fragment_createalarm_scheduleAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="30dp"
+            android:text="Schedule Reminder"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="133dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
