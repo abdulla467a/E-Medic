@@ -15,3 +15,8 @@ https://emedic-appointment.netlify.app/
 ![4](https://user-images.githubusercontent.com/76894786/169961644-cfbe5977-bde4-4b6a-ae02-7a54d6050e25.PNG)
 ![5](https://user-images.githubusercontent.com/76894786/169961647-58b1a4c1-7019-4fdc-9298-b72ec1ba95ff.PNG)
 
+Project Documentation Video:
+
+
+https://user-images.githubusercontent.com/76894786/169976676-4a2af1d1-98a8-42d3-acbc-e59b6ebab4b3.mp4
+
